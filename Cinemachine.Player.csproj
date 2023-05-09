@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{535E763F-682C-CEF9-483C-FFBC3C29ECB5}</ProjectGuid>
+    <ProjectGuid>{32CEE1B8-8681-85ED-29BF-5A5A0EFED9F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Cinemachine</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Player\</OutputPath>
-    <DefineConstants>UNITY_2021_3_18;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_18;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CINEMACHINE_TIMELINE;CINEMACHINE_PHYSICS_2D;CINEMACHINE_PHYSICS;CINEMACHINE_UGUI;CINEMACHINE_UNITY_ANIMATION;CINEMACHINE_UNITY_IMGUI;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -56,72 +56,89 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-    <Compile Include="Assets\Script\GatoMovimentacao.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\Script\GameManager.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\Script\ItemCollect.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-    <Compile Include="Assets\SiuniaevCharacters\01_GamblerCat\Scripts\CharacterRotator.cs" />
-    <Compile Include="Assets\Script\HungerBar.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\SiuniaevCharacters\01_GamblerCat\Scripts\AnimationButton.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\RuntimeUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachinePath.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\PostProcessing\CinemachineVolumeSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineSmoothPath.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\ICinemachineCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\CinemachineDebug.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\UnityVectorExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachinePixelPerfect.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineExternalCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineFreeLook.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Helpers\CinemachineTriggerAction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Impulse\CinemachineFixedSignal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\CinemachineFramingTransposer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\NoiseSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineCameraOffset.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Timeline\CinemachineMixer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\CinemachineTransposer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineCollider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\Predictor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Timeline\CinemachineShot.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\TargetPositionCache.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\CinemachinePathBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineDollyCart.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\CinemachineBlenderSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Impulse\CinemachineIndependentImpulseListener.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\CinemachineTrackedDolly.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Impulse\CinemachineImpulseManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\CinemachineGroupComposer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\PostProcessing\CinemachinePostProcessing.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\CinemachineOrbitalTransposer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\ICinemachineComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\CinemachineComponentBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Experimental\CinemachineNewFreeLook.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineBrain.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\LensSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Helpers\CinemachineTouchInputMapper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineStoryboard.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineConfiner.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\CinemachineSameAsFollowTarget.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\Cinemachine3rdPersonAim.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineStateDrivenCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineConfiner2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Experimental\CinemachineNewVirtualCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineVirtualCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineClearShot.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\CinemachineHardLockToTarget.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Helpers\GroupWeightManipulator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\SplineHelpers.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachinePipeline.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineTargetGroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\CinemachineHardLookAt.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Impulse\CinemachineImpulseDefinition.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\ConfinerOven.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Impulse\CinemachineCollisionImpulseSource.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\UpdateTracker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\CinemachinePOV.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Helpers\CinemachineInputProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineRecomposer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Timeline\CinemachineTrack.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\Cinemachine3rdPersonFollow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\CinemachineInputAxisDriver.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\SignalSourceAsset.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\CinemachinePropertyAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Impulse\CinemachineImpulseSource.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\GaussianFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Timeline\CinemachineShotPlayable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineMixingCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Impulse\CinemachineImpulseListener.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Components\CinemachineComposer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineFollowZoom.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Behaviours\CinemachineBlendListCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\CinemachineExtension.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\CameraState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\AxisState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\CinemachineBlend.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\CinemachineCore.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\Core\CinemachineVirtualCameraBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\ThirdParty\clipper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Runtime\com.unity.cinemachine.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -700,53 +717,9 @@
       <Project>{E0C05F42-A361-0597-D175-1B878A1FE6E0}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{05EDFBE0-7445-89FD-3926-8A2168DA033D}</Project>
-      <Name>Unity.TextMeshPro.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{5196C56C-4822-A755-08E3-519C2296E45A}</Project>
-      <Name>Unity.VisualScripting.Flow.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{F8022977-3EE9-FA8F-461B-5A4821D18674}</Project>
       <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{1371CE96-CB43-5EA7-129C-017A57977062}</Project>
-      <Name>Unity.VisualScripting.State.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{AB2CB0F1-C32D-E30E-53FC-9175F6E774C3}</Project>
-      <Name>Unity.VisualScripting.Core.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Player.csproj">
-      <Project>{194DF573-931A-72BA-384C-8BC4D2B82781}</Project>
-      <Name>Unity.Recorder.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Autodesk.Fbx.Player.csproj">
-      <Project>{5E27F41E-F9A0-A347-4F91-E2FCC09AD7C6}</Project>
-      <Name>Autodesk.Fbx.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Sequences.Player.csproj">
-      <Project>{AF6888A6-D53C-C686-3D41-7A51EDAEAAB4}</Project>
-      <Name>Unity.Sequences.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Base.Player.csproj">
-      <Project>{43A7519E-CE30-0F27-F712-867549DE3F26}</Project>
-      <Name>Unity.Recorder.Base.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.Player.csproj">
-      <Project>{32CEE1B8-8681-85ED-29BF-5A5A0EFED9F3}</Project>
-      <Name>Cinemachine.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Formats.Alembic.Runtime.Player.csproj">
-      <Project>{847B1E73-F667-E75A-2C25-1C7D447382EB}</Project>
-      <Name>Unity.Formats.Alembic.Runtime.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Formats.Fbx.Runtime.Player.csproj">
-      <Project>{39E614CB-63B8-5C0D-B98C-F56523247426}</Project>
-      <Name>Unity.Formats.Fbx.Runtime.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
