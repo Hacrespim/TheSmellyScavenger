@@ -696,6 +696,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.Recorder.Base.Player.csproj">
+      <Project>{43A7519E-CE30-0F27-F712-867549DE3F26}</Project>
+      <Name>Unity.Recorder.Base.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
       <Project>{E0C05F42-A361-0597-D175-1B878A1FE6E0}</Project>
       <Name>Unity.Timeline.Player</Name>
@@ -708,45 +712,41 @@
       <Project>{5196C56C-4822-A755-08E3-519C2296E45A}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Autodesk.Fbx.Player.csproj">
+      <Project>{5E27F41E-F9A0-A347-4F91-E2FCC09AD7C6}</Project>
+      <Name>Autodesk.Fbx.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{F8022977-3EE9-FA8F-461B-5A4821D18674}</Project>
       <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{1371CE96-CB43-5EA7-129C-017A57977062}</Project>
-      <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
       <Project>{AB2CB0F1-C32D-E30E-53FC-9175F6E774C3}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Player.csproj">
-      <Project>{194DF573-931A-72BA-384C-8BC4D2B82781}</Project>
-      <Name>Unity.Recorder.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Autodesk.Fbx.Player.csproj">
-      <Project>{5E27F41E-F9A0-A347-4F91-E2FCC09AD7C6}</Project>
-      <Name>Autodesk.Fbx.Player</Name>
+    <ProjectReference Include="Cinemachine.Player.csproj">
+      <Project>{32CEE1B8-8681-85ED-29BF-5A5A0EFED9F3}</Project>
+      <Name>Cinemachine.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Sequences.Player.csproj">
       <Project>{AF6888A6-D53C-C686-3D41-7A51EDAEAAB4}</Project>
       <Name>Unity.Sequences.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Base.Player.csproj">
-      <Project>{43A7519E-CE30-0F27-F712-867549DE3F26}</Project>
-      <Name>Unity.Recorder.Base.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.Player.csproj">
-      <Project>{32CEE1B8-8681-85ED-29BF-5A5A0EFED9F3}</Project>
-      <Name>Cinemachine.Player</Name>
+    <ProjectReference Include="Unity.Formats.Fbx.Runtime.Player.csproj">
+      <Project>{39E614CB-63B8-5C0D-B98C-F56523247426}</Project>
+      <Name>Unity.Formats.Fbx.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Formats.Alembic.Runtime.Player.csproj">
       <Project>{847B1E73-F667-E75A-2C25-1C7D447382EB}</Project>
       <Name>Unity.Formats.Alembic.Runtime.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Formats.Fbx.Runtime.Player.csproj">
-      <Project>{39E614CB-63B8-5C0D-B98C-F56523247426}</Project>
-      <Name>Unity.Formats.Fbx.Runtime.Player</Name>
+    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
+      <Project>{1371CE96-CB43-5EA7-129C-017A57977062}</Project>
+      <Name>Unity.VisualScripting.State.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Player.csproj">
+      <Project>{194DF573-931A-72BA-384C-8BC4D2B82781}</Project>
+      <Name>Unity.Recorder.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

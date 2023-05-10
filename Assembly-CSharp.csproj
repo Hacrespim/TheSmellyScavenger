@@ -760,13 +760,17 @@
       <Project>{625B379D-4F70-C9EE-6C03-C0611B8A0CC5}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{3E40046D-CB21-554E-B96D-5903C12476A3}</Project>
+      <Name>Unity.Recorder.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{23526351-4BF5-B3D3-5F21-47EF0EF6B87B}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{1FD77861-DBFA-0067-8CDB-E1392B5D6CB7}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    <ProjectReference Include="Unity.Recorder.Base.csproj">
+      <Project>{E52B8EC0-5496-69C2-F764-878A8E041F7E}</Project>
+      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{DFDE1B2D-A3CA-087B-D0AC-3995EF8E5921}</Project>
@@ -776,9 +780,13 @@
       <Project>{2082AD3D-A9AD-110E-5AAD-0E9B6BCD1F5E}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{1446FD0F-7E63-FFB0-7D3B-344064475AFB}</Project>
-      <Name>Unity.Timeline.Editor</Name>
+    <ProjectReference Include="Autodesk.Fbx.Editor.csproj">
+      <Project>{A19C5793-D314-3058-17CA-A0FCA18E92B1}</Project>
+      <Name>Autodesk.Fbx.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Formats.Fbx.Editor.csproj">
+      <Project>{D46B1623-2F44-FEBB-C6D4-B03BF1A1A925}</Project>
+      <Name>Unity.Formats.Fbx.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{EE5CDA83-2650-664F-DA1B-FE6256D52E13}</Project>
@@ -816,13 +824,13 @@
       <Project>{FF086390-E61D-BE99-1ECD-234BFED1666F}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Autodesk.Fbx.csproj">
+      <Project>{AB6DD875-95EF-4688-654F-C42B5D72B2BE}</Project>
+      <Name>Autodesk.Fbx</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{55D8E8E1-E6ED-7C69-BAB5-7220293251E9}</Project>
       <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{C6F7D4D0-356E-36F7-08DA-DC3EC34E29BA}</Project>
-      <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{ED819566-077F-E4CE-D130-B3ACA2F2BEB5}</Project>
@@ -832,53 +840,45 @@
       <Project>{D35637BB-CD77-7463-6FB1-4518C7BBAAAF}</Project>
       <Name>Unity.Sequences.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.csproj">
-      <Project>{D235AA57-503D-726F-2558-80DB88FD245C}</Project>
-      <Name>Unity.Recorder</Name>
-    </ProjectReference>
-    <ProjectReference Include="Autodesk.Fbx.csproj">
-      <Project>{AB6DD875-95EF-4688-654F-C42B5D72B2BE}</Project>
-      <Name>Autodesk.Fbx</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Formats.Alembic.Editor.csproj">
-      <Project>{1E67B5FA-1D45-8FAC-B879-C27556D2FE6C}</Project>
-      <Name>Unity.Formats.Alembic.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Sequences.csproj">
-      <Project>{4BF03B8F-6E63-0A4C-CDB4-24BC96DF313A}</Project>
-      <Name>Unity.Sequences</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Base.csproj">
-      <Project>{E52B8EC0-5496-69C2-F764-878A8E041F7E}</Project>
-      <Name>Unity.Recorder.Base</Name>
-    </ProjectReference>
-    <ProjectReference Include="Autodesk.Fbx.Editor.csproj">
-      <Project>{A19C5793-D314-3058-17CA-A0FCA18E92B1}</Project>
-      <Name>Autodesk.Fbx.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Formats.Fbx.Editor.csproj">
-      <Project>{D46B1623-2F44-FEBB-C6D4-B03BF1A1A925}</Project>
-      <Name>Unity.Formats.Fbx.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Cinemachine.csproj">
       <Project>{645D30E0-88AE-43AA-73A2-D4ADD2133392}</Project>
       <Name>Cinemachine</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Formats.Alembic.Runtime.csproj">
-      <Project>{27233964-1CE4-AEAC-9170-2B2F926BB3BB}</Project>
-      <Name>Unity.Formats.Alembic.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.cinemachine.editor.csproj">
       <Project>{5C6C8569-0D42-0F5F-108C-185A28D1EDD9}</Project>
       <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Editor.csproj">
-      <Project>{3E40046D-CB21-554E-B96D-5903C12476A3}</Project>
-      <Name>Unity.Recorder.Editor</Name>
+    <ProjectReference Include="Unity.Sequences.csproj">
+      <Project>{4BF03B8F-6E63-0A4C-CDB4-24BC96DF313A}</Project>
+      <Name>Unity.Sequences</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{1FD77861-DBFA-0067-8CDB-E1392B5D6CB7}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Formats.Fbx.Runtime.csproj">
       <Project>{A662367D-A45B-4FAE-DE3D-4E48E29D75F5}</Project>
       <Name>Unity.Formats.Fbx.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Formats.Alembic.Runtime.csproj">
+      <Project>{27233964-1CE4-AEAC-9170-2B2F926BB3BB}</Project>
+      <Name>Unity.Formats.Alembic.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{1446FD0F-7E63-FFB0-7D3B-344064475AFB}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Formats.Alembic.Editor.csproj">
+      <Project>{1E67B5FA-1D45-8FAC-B879-C27556D2FE6C}</Project>
+      <Name>Unity.Formats.Alembic.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{C6F7D4D0-356E-36F7-08DA-DC3EC34E29BA}</Project>
+      <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.csproj">
+      <Project>{D235AA57-503D-726F-2558-80DB88FD245C}</Project>
+      <Name>Unity.Recorder</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -29,19 +29,19 @@ public class GatoMovimentacao : MonoBehaviour
         // Verifica a interação com objetos
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, interactionDistance);
+            Collider[] colliders = Physics.OverlapSphere(transform.position, interactionDistance);
 
-            foreach (Collider2D col in colliders)
+            foreach (Collider col in colliders)
             {
                 if (col.CompareTag("Interactable"))
                 {
                     // faz algo com o objeto interagível
-                    Debug.Log("Interagindo com " + col.name);
+                    Debug.Log("Interagindo com um item coletavel " + col.name);
                 }
                 else if (col.CompareTag("Person"))
                 {
                     // faz algo com a pessoa interagível
-                    Debug.Log("Interagindo com " + col.name);
+                    Debug.Log("Interagindo com uma pessoa" + col.name);
                 }
             }
         }
@@ -83,7 +83,7 @@ public class GatoMovimentacao : MonoBehaviour
     }
 
     // Verifica se o jogador entrou em contato com um objeto interagível ou uma pessoa
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter(Collider col)
     {
         if (col.CompareTag("Interactable"))
         {
