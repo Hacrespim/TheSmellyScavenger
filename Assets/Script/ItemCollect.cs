@@ -14,6 +14,11 @@ public class ItemCollect : MonoBehaviour
         if (other.CompareTag("Player") && !collected) // Verifica se o item colidiu com o jogador e não foi coletado ainda
         {
             collected = true; // Marca o item como coletado
+            if (GameManager.Instance == null)
+            {
+                Debug.Log("GameManager.Instance não encontrada!");
+                return;
+            }
             GameManager.Instance.AddScore(scoreValue); // Adiciona o valor do score ao jogo
             AudioSource.PlayClipAtPoint(collectSound, transform.position); // Reproduz o som de coleta
             Destroy(gameObject); // Destroi o objeto do item
