@@ -57,23 +57,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ExportSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\CustomExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\CameraVisitor.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\FbxExporterRepairMissingScripts.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ExportModelEditorWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\Sources\Recorders\FbxRecorder\FbxRecorderSettingsEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ExportModelSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\FbxExporter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\Sources\Recorders\FbxRecorder\FbxRecorderSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ConvertToNestedPrefab.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\FbxPropertyChannelPair.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\InstallIntegration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ConvertToPrefabSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\Sources\Recorders\FbxRecorder\FbxRecorder.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\FbxRotationCurve.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\CustomExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ConvertToNestedPrefab.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ConvertToPrefabEditorWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\CameraVisitor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ExportModelEditorWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\InstallIntegration.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ManualUpdateEditorWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\FbxExportPresetSelectorReceiver.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ConvertToPrefabEditorWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\Sources\Recorders\FbxRecorder\FbxRecorderSettingsEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ExportModelSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\Sources\Recorders\FbxRecorder\FbxRecorderSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\FbxPropertyChannelPair.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\ConvertToPrefabSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@4.1.3\Editor\IExportData.cs" />
   </ItemGroup>
   <ItemGroup>
