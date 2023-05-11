@@ -65,7 +65,8 @@ public class GatoMovimentacao : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                moveDirection.y = jumpForce;
+                // Aplica uma direção de salto específica ao personagem
+                moveDirection = new Vector3(moveDirection.x, jumpForce, moveDirection.z);
             }
         }
         rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
