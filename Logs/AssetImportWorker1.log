@@ -187,3 +187,162 @@ Received Import Request.
   path: Assets/ItemColletable/crtlalt#2.fbx
   artifactKey: Guid(4b82f379b2cd3fe4784fbb805d281245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ItemColletable/crtlalt#2.fbx using Guid(4b82f379b2cd3fe4784fbb805d281245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa490b9e8c235c2f55c90a53f47affd') in 0.263324 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005343 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Arquivos de Programas\GitHub\TheSmellyScavenger\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Arquivos de Programas\GitHub\TheSmellyScavenger\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.458 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1459ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1121ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.60 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3606 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (0.5 MB). Loaded Objects now: 4172.
+Memory consumption went from 147.5 MB to 147.0 MB.
+Total: 5.186700 ms (FindLiveObjects: 0.351400 ms CreateObjectMapping: 0.172000 ms MarkObjects: 4.215200 ms  DeleteObjects: 0.446900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3008.508244 seconds.
+  path: Assets/kenney_city-kit-suburban/driveway_short.fbx
+  artifactKey: Guid(4633990acb016b448b5536073cf46ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/driveway_short.fbx using Guid(4633990acb016b448b5536073cf46ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bae803778979ce0791aeee6110b908') in 0.195896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_city-kit-suburban/fence_medium.fbx
+  artifactKey: Guid(2c8664dac0af2fe4298b46b20e36a97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/fence_medium.fbx using Guid(2c8664dac0af2fe4298b46b20e36a97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff9177f49467bc0d928a41ec37a2a36') in 0.027822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/kenney_city-kit-suburban/fence_short.fbx
+  artifactKey: Guid(7c64fd4bbca074d4cb3fca9bcdc47e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/fence_short.fbx using Guid(7c64fd4bbca074d4cb3fca9bcdc47e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0d490002fa73e8162b35199bd78a88') in 0.025132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_city-kit-suburban/house_type02.fbx
+  artifactKey: Guid(b1608de75b1622a478a7ac1c804cd74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/house_type02.fbx using Guid(b1608de75b1622a478a7ac1c804cd74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2bf7e7ad896b5ba0f9cd3b9694b06d') in 0.051809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/kenney_city-kit-suburban/house_type07.fbx
+  artifactKey: Guid(b4d4e8eaa15c7f9468303c9a1450c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/house_type07.fbx using Guid(b4d4e8eaa15c7f9468303c9a1450c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1630e8cd66d9615031f31aa1d2d903c0') in 0.053601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_city-kit-suburban/house_type14.fbx
+  artifactKey: Guid(8400b906d6d627343b98494a07749e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/house_type14.fbx using Guid(8400b906d6d627343b98494a07749e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d74cda13366604a9cf03d29f9217c24') in 0.046183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/kenney_city-kit-suburban/house_type15.fbx
+  artifactKey: Guid(ce579b8366d4f23408c02f411263ae3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/house_type15.fbx using Guid(ce579b8366d4f23408c02f411263ae3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95a54e9ec6f479c8be025da8e349ad4') in 0.051656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_city-kit-suburban/house_type17.fbx
+  artifactKey: Guid(2d850e702e4c1764eb7ab44b30d1ada8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/house_type17.fbx using Guid(2d850e702e4c1764eb7ab44b30d1ada8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea5271b95427f0569934f828b949841') in 0.048031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_city-kit-suburban/house_type19.fbx
+  artifactKey: Guid(c350ec796099fb9469174ffbce2af650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/house_type19.fbx using Guid(c350ec796099fb9469174ffbce2af650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8180e5ea89f08cc6f62ec1a115d6b50a') in 0.045012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_city-kit-suburban/path_tilesLong.fbx
+  artifactKey: Guid(8fc4301003a3d9b4aade943b600ec6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/path_tilesLong.fbx using Guid(8fc4301003a3d9b4aade943b600ec6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa68a2c2700c767afc0eb257522b7735') in 0.034369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_city-kit-suburban/house_type10.fbx
+  artifactKey: Guid(75247131f46f6724ab3d7a561aaf0b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/house_type10.fbx using Guid(75247131f46f6724ab3d7a561aaf0b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29dce4ce9b366dd7cf6605ee0704af8') in 0.054598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_city-kit-suburban/path_long.fbx
+  artifactKey: Guid(ff0619ff997f6b0499d666977eab2951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/path_long.fbx using Guid(ff0619ff997f6b0499d666977eab2951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b366533d70027dd11da2a090ade4bd8') in 0.027242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/kenney_city-kit-suburban/house_type09.fbx
+  artifactKey: Guid(8ce5df4b9c2a14941b0060d262903936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/house_type09.fbx using Guid(8ce5df4b9c2a14941b0060d262903936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f896ddf7a0510ea00e0271f6a105404c') in 0.041624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_city-kit-suburban/house_type08.fbx
+  artifactKey: Guid(0c09e14fdcccab24d90ac4f6030bdf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/house_type08.fbx using Guid(0c09e14fdcccab24d90ac4f6030bdf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd566724ecc72ac36b931589bd9cf43') in 0.044163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_city-kit-suburban/fence_wide.fbx
+  artifactKey: Guid(be1809173180cb54a94d050550c9e776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/fence_wide.fbx using Guid(be1809173180cb54a94d050550c9e776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd512e9445d58d780de18b6a0f53ef62d') in 0.022915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_city-kit-suburban/house_type16.fbx
+  artifactKey: Guid(cb1e590ac98ce9c428f6a01cd2950bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/house_type16.fbx using Guid(cb1e590ac98ce9c428f6a01cd2950bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6647fbdc5b6e3ad7da16c9ae2ec18f') in 0.040083 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
