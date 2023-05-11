@@ -13,8 +13,11 @@ public class HungerBar : MonoBehaviour
     public float energiaAtual = 1f; // Quantidade atual de energia do jogador
     public Image barraDeFome; // Referência à imagem da barra de fome na interface do usuário
     public Transform ultimoCheckpoint; // Referência ao último checkpoint em que o jogador foi salvo
+    public AudioClip collectSound; // Som que é reproduzido quando o item é coletado
+    public AudioClip hitSound; // Som que é reproduzido quando o jogador é atingido pelo inimigo
 
     private float tempoUltimaRefeicao; // Tempo em que o jogador comeu pela última vez
+    private int colisoesComInimigo = 0; // Contador de colisões com inimigos
 
     private void Start()
     {
