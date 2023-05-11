@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HungerBar : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class HungerBar : MonoBehaviour
     public Transform ultimoCheckpoint; // Referência ao último checkpoint em que o jogador foi salvo
     public AudioClip collectSound; // Som que é reproduzido quando o item é coletado
     public AudioClip hitSound; // Som que é reproduzido quando o jogador é atingido pelo inimigo
+    public TextMeshProUGUI gameOverText; // Texto de Game Over, que é exibido quando player não tiver vidas
 
     private float tempoUltimaRefeicao; // Tempo em que o jogador comeu pela última vez
     private int colisoesComInimigo = 0; // Contador de colisões com inimigos
@@ -34,32 +36,42 @@ public class HungerBar : MonoBehaviour
         energiaAtual = Mathf.Clamp01(1f - (tempoSemComer / maxTempoSemComer));
 
         // Reduz a energia do jogador ao longo do tempo quando a barra de fome estiver vazia
-        if (energiaAtual <= 0f)
-        {
-            vidaAtual -= (int)(danoPorSegundo * Time.deltaTime);
-            vidaAtual = Mathf.Clamp(vidaAtual, 0, maxVida);
-        }
-
-        // Atualiza a barra de fome na interface do usuário
-        barraDeFome.fillAmount = energiaAtual;
-
-        // Verifica se o jogador perdeu todas as vidas
-        if (vidaAtual <= 0)
-        {
-            // Reposiciona o jogador no último checkpoint salvo
-            transform.position = ultimoCheckpoint.position;
-
-            // Reinicia a energia do jogador e as vidas
-            vidaAtual = maxVida;
-            energiaAtual = 1f;
-            tempoUltimaRefeicao = Time.time;
-        }
     }
 
-    // Método chamado quando o jogador come um item que restaura sua energia
-    public void Comer(float quantidadeDeEnergia)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        tempoUltimaRefeicao = Time.time;
-        energiaAtual = Mathf.Clamp01(energiaAtual + quantidadeDeEnergia);
+        if (collision.gameObject.CompareTag("Inimigo"))
+        {
+            colisoesComInimigo++;
+
+            // Reproduz o som de hit
+            AudioSource.PlayClipAtPoint(hitSound, transform.position);
+
+            // Se o jogador encostar no inimigo 3 vezes, perde uma vida
+            if (colisoesComInimigo >= 3)
+            {
+                // Reduz a quantidade de vidas do jogador
+                vidaAtual--;
+                colisoesComInimigo = 0;
+
+                // Verifica se o jogador perdeu todas as vidas
+                if (vidaAtual <= 0)
+                {
+                    // Reposiciona o jogador no último checkpoint visitado
+                    transform.position = ultimoCheckpoint.position;
+
+                    // Reinicia a energia do jogador e as vidas
+                    vidaAtual = maxVida;
+                    energiaAtual = 1f;
+                    tempoUltimaRefeicao = Time.time;
+
+                    // Verifica se o objeto TMP está desativado e, em caso positivo, o ativa
+                    if (gameOverText.gameObject.activeSelf == false)
+                    {
+                        gameOverText.gameObject.SetActive(true);
+                    }
+                }
+            }
+        }
     }
 }

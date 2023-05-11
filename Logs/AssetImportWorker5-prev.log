@@ -15,7 +15,7 @@ D:/Arquivos de Programas/GitHub/TheSmellyScavenger
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-64960
+50636
 Successfully changed project path to: D:/Arquivos de Programas/GitHub/TheSmellyScavenger
 D:/Arquivos de Programas/GitHub/TheSmellyScavenger
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Arquivos de Programas/GitHub/TheSmellyScavenger
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18696] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 211109498 [EditorId] 211109498 [Version] 1048832 [Id] WindowsEditor(7,PC-Casa) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22856] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 1343374233 [EditorId] 1343374233 [Version] 1048832 [Id] WindowsEditor(7,PC-Casa) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18696] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 211109498 [EditorId] 211109498 [Version] 1048832 [Id] WindowsEditor(7,PC-Casa) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22856] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 1343374233 [EditorId] 1343374233 [Version] 1048832 [Id] WindowsEditor(7,PC-Casa) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 135.55 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 138.09 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path D:/Arquivos de Programas/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,14 +67,14 @@ Initialize mono
 Mono path[0] = 'D:/Arquivos de Programas/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Arquivos de Programas/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Arquivos de Programas/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Arquivos de Programas/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Arquivos de Programas/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/Arquivos de Programas/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: D:/Arquivos de Programas/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007960 seconds.
+Registered in 0.007824 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -83,40 +83,40 @@ Native extension for AppleTV target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 807 ms
-Refreshing native plugins compatible for Editor in 128.97 ms, found 7 plugins.
+Android Extension - Scanning For ADB Devices 3211 ms
+Refreshing native plugins compatible for Editor in 152.14 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.847 seconds
+- Completed reload, in  4.365 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1848ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (4366ms)
+		BeginReloadAssembly (187ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1587ms)
-			LoadAssemblies (105ms)
+		EndReloadAssembly (4016ms)
+			LoadAssemblies (186ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
+			SetupTypeCache (176ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (1269ms)
+			SetupLoadedEditorAssemblies (3720ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (933ms)
+				InitializePlatformSupportModulesInManaged (3322ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (129ms)
+				RefreshPlugins (152ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005349 seconds.
+Registered in 0.005872 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Arquivos de Programas\GitHub\TheSmellyScavenger\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Arquivos de Programas\GitHub\TheSmellyScavenger\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -124,46 +124,46 @@ Native extension for WindowsStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 127.56 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 142.54 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.661 seconds
+- Completed reload, in  1.755 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1662ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (1756ms)
+		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1334ms)
-			LoadAssemblies (117ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1413ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
+			SetupTypeCache (370ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (685ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (763ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
+				InitializePlatformSupportModulesInManaged (37ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (128ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (367ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (143ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 1.47 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3637 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (0.6 MB). Loaded Objects now: 4113.
-Memory consumption went from 146.1 MB to 145.4 MB.
-Total: 8.321400 ms (FindLiveObjects: 0.644800 ms CreateObjectMapping: 0.277200 ms MarkObjects: 6.534600 ms  DeleteObjects: 0.863200 ms)
+Unloading 46 unused Assets / (0.6 MB). Loaded Objects now: 4114.
+Memory consumption went from 146.2 MB to 145.5 MB.
+Total: 7.721400 ms (FindLiveObjects: 0.674700 ms CreateObjectMapping: 0.289500 ms MarkObjects: 5.972400 ms  DeleteObjects: 0.783200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,64 +177,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 475241.613998 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
-  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06facbe838afc888da8d01a72687ce89') in 0.237241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PackgeManager/low-poly-city-pack/barrel/barrel.jpg
-  artifactKey: Guid(cd23fee2daad23c4d877e067fa9dcea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PackgeManager/low-poly-city-pack/barrel/barrel.jpg using Guid(cd23fee2daad23c4d877e067fa9dcea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d7535d2bda6b52a1e285feea177715') in 0.030204 seconds 
+  Time since last request: 551341.491515 seconds.
+  path: Assets/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_04.wav
+  artifactKey: Guid(f7bff2a24d7d64eb296a8133060bd3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_04.wav using Guid(f7bff2a24d7d64eb296a8133060bd3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085669e1e60d5d5e895fcbf9ea15c370') in 0.411247 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000042 seconds.
-  path: Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Dark/CollectionType/Audio.png
-  artifactKey: Guid(81f080c83b9cb0b45867f46fb8fd5e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Dark/CollectionType/Audio.png using Guid(81f080c83b9cb0b45867f46fb8fd5e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57204d75c7cc0dd811a2235429993e3') in 0.020940 seconds 
+  path: Assets/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_04.mp3
+  artifactKey: Guid(273eb9554375f4ebb9e87931ec8335a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_04.mp3 using Guid(273eb9554375f4ebb9e87931ec8335a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55fe2fe2af75a09ed3efc7dddaef56c') in 0.217798 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Light/CollectionType/Audio@2x.png
-  artifactKey: Guid(914daa8077e768a4fbe7f15d86191a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Light/CollectionType/Audio@2x.png using Guid(914daa8077e768a4fbe7f15d86191a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7b84cb98f5a60d276f77c5ae869316') in 0.018121 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fantasy Sfx/Wav/Footsteps/Footstep_Water_04.wav
+  artifactKey: Guid(c571fcbafd2224c98958747fe04a265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Sfx/Wav/Footsteps/Footstep_Water_04.wav using Guid(c571fcbafd2224c98958747fe04a265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a78e44bab000b48fa570016a3647b4') in 0.301692 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.338293 seconds.
-  path: Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Common/CollectionType/Character-selected.png
-  artifactKey: Guid(de6a59462efe6f94aa4d73334a50f729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Common/CollectionType/Character-selected.png using Guid(de6a59462efe6f94aa4d73334a50f729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d33f85ebb68acf2c9270dba9ff07987') in 0.034112 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Sfx/Wav/Goblin_01.wav
+  artifactKey: Guid(c118d1cdc5f634c28bfb87ef52703522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Sfx/Wav/Goblin_01.wav using Guid(c118d1cdc5f634c28bfb87ef52703522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733bf343c5d3b5728f08a449e1cc96e5') in 0.154246 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PackgeManager/low-poly-city-pack/containerClosed/containerClosed.psd
-  artifactKey: Guid(92d9eaa380995924c98dce0fa741128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PackgeManager/low-poly-city-pack/containerClosed/containerClosed.psd using Guid(92d9eaa380995924c98dce0fa741128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3b40b4cc90fa123bdf18e7ed3cf1af') in 0.035273 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_00.mp3
+  artifactKey: Guid(22b5b26c3429f42c482afafb562afc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_00.mp3 using Guid(22b5b26c3429f42c482afafb562afc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aed3ebe7c05a3cb55693df1659a2fba') in 0.198402 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.cinemachine/Gizmos/cm_logo.png
-  artifactKey: Guid(b8ba3923a6094cd48b85425f47fd7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.cinemachine/Gizmos/cm_logo.png using Guid(b8ba3923a6094cd48b85425f47fd7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca8618827486d4db0ce98671b2fb8bb') in 0.066630 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_05.mp3
+  artifactKey: Guid(61467420665bc4bb782283cc97cebfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_05.mp3 using Guid(61467420665bc4bb782283cc97cebfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441b77a48372fc746d0608f487bd4df1') in 0.122470 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Common/CollectionType/CustomPerformance-selected@2x.png
-  artifactKey: Guid(4c42e95139603a04993aa438601ef87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Common/CollectionType/CustomPerformance-selected@2x.png using Guid(4c42e95139603a04993aa438601ef87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15179ba0280092d7f655ed095a396311') in 0.021635 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Sfx/Wav/Ambience_Cave_00.wav
+  artifactKey: Guid(f74396619b7154fa5a38a1959cfa67ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Sfx/Wav/Ambience_Cave_00.wav using Guid(f74396619b7154fa5a38a1959cfa67ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778eda3b05aa983ba85a29924e6a686a') in 0.129495 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Common/CollectionType/CustomPerformance-selected.png
-  artifactKey: Guid(ee7945f08c2e0784d82a251aa6675a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Common/CollectionType/CustomPerformance-selected.png using Guid(ee7945f08c2e0784d82a251aa6675a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b201b9a0231ae018693bd20d1caa01f') in 0.024401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.338820 seconds.
-  path: Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Dark/CollectionType/CustomType.png
-  artifactKey: Guid(d6d1627afe693564eb5a53d067c60549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Dark/CollectionType/CustomType.png using Guid(d6d1627afe693564eb5a53d067c60549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2d27b499434cca1ec19ce4eb79593c') in 0.026812 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Sfx/Mp3/Dragon_Growl_00.mp3
+  artifactKey: Guid(31572d31fe9bc4d4d909f5a91c767e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Sfx/Mp3/Dragon_Growl_00.mp3 using Guid(31572d31fe9bc4d4d909f5a91c767e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41e290da892bf8459b3c355883c0ead') in 0.333177 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
