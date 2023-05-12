@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autodesk.Fbx.Editor", "Auto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Shared.Editor", "Unity.VisualScripting.Shared.Editor.csproj", "{1FD77861-DBFA-0067-8CDB-E1392B5D6CB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{BBAE91D1-1277-B08C-A056-6AC9188433BD}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.Player.csproj", "{F8022977-3EE9-FA8F-461B-5A4821D18674}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.Player.csproj", "{53219762-0EAB-C2CD-CEA7-2A3341AA88B9}"
@@ -261,6 +263,10 @@ Global
 		{1FD77861-DBFA-0067-8CDB-E1392B5D6CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FD77861-DBFA-0067-8CDB-E1392B5D6CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FD77861-DBFA-0067-8CDB-E1392B5D6CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBAE91D1-1277-B08C-A056-6AC9188433BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAE91D1-1277-B08C-A056-6AC9188433BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAE91D1-1277-B08C-A056-6AC9188433BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAE91D1-1277-B08C-A056-6AC9188433BD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8022977-3EE9-FA8F-461B-5A4821D18674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8022977-3EE9-FA8F-461B-5A4821D18674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8022977-3EE9-FA8F-461B-5A4821D18674}.Release|Any CPU.ActiveCfg = Release|Any CPU
